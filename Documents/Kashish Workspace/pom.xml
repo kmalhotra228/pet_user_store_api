@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.kashish.api</groupId>
+  <artifactId>com.kashish.api</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies>
+    <!-- Rest Assured Core -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.4.0</version>
+    </dependency>
+
+    <!-- JSON Path for parsing -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-path</artifactId>
+      <version>5.4.0</version>
+    </dependency>
+
+    <!-- TestNG for test execution -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.11.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Gson for JSON conversion -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+
+    <!-- Hamcrest for assertions -->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>2.2</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Maven Surefire Plugin to run TestNG tests -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+        <configuration>
+          <includes>
+            <include>**/*Test.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
