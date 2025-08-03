@@ -6,7 +6,9 @@
       <class name="tests.userTest">
         <methods>
           <include name="testGetUserByName"/>
+          <include name="testPostUser"/>
           <include name="setUpData"/>
+          <include name="testUpdateUserByName"/>
         </methods>
       </class> <!-- tests.userTest -->
     </classes>

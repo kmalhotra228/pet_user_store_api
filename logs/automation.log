@@ -1,0 +1,341 @@
+17:09:03.088 [main] INFO  tests.userTest - Creating new user...
+17:09:06.287 [main] INFO  tests.userTest - new user is created
+17:09:06.293 [main] INFO  tests.userTest - GET new user details
+17:09:07.950 [main] INFO  tests.userTest - Updating the user: kiley.lockman
+17:09:11.204 [main] INFO  tests.userTest - Deleting the user
+17:09:12.770 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:09:45.092 [main] INFO  tests.userTest - Creating new user...
+17:09:48.152 [main] INFO  tests.userTest - new user is created
+17:09:48.158 [main] INFO  tests.userTest - GET new user details
+17:09:49.811 [main] INFO  tests.userTest - Updating the user: rosita.schmeler
+17:09:53.026 [main] INFO  tests.userTest - Sucessfully updated the user: rosita.schmeler
+17:09:53.030 [main] INFO  tests.userTest - Deleting the user
+17:09:55.002 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:11:04.011 [main] INFO  tests.userTest - Creating new user...
+17:11:07.221 [main] INFO  tests.userTest - new user is created
+17:11:07.226 [main] INFO  tests.userTest - GET new user details
+17:11:08.857 [main] INFO  tests.userTest - Updating the user: ivette.sporer
+17:11:12.141 [main] INFO  tests.userTest - Sucessfully updated the user: ivette.sporer
+17:11:12.144 [main] INFO  tests.userTest - Deleting the user
+17:11:13.741 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:11:58.446 [main] INFO  tests.userTest - Creating new user...
+17:12:01.541 [main] INFO  tests.userTest - new user is created
+17:12:02.554 [main] INFO  tests.userTest - GET new user details
+17:12:04.177 [main] INFO  tests.userTest - Updating the user: robby.schiller
+17:12:07.458 [main] INFO  tests.userTest - Sucessfully updated the user: robby.schiller
+17:12:07.460 [main] INFO  tests.userTest - Deleting the user
+17:12:09.103 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:12:54.613 [main] INFO  tests.userTest - Creating new user...
+17:12:57.731 [main] INFO  tests.userTest - new user is created
+17:13:00.745 [main] INFO  tests.userTest - GET new user details
+17:13:02.386 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:13:02.390 [main] INFO  tests.userTest - Updating the user: garry.ruecker
+17:13:05.616 [main] INFO  tests.userTest - Deleting the user
+17:13:07.233 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:14:47.655 [main] INFO  tests.userTest - Creating new user...
+17:14:50.875 [main] INFO  tests.userTest - new user is created
+17:14:53.883 [main] INFO  tests.userTest - GET new user details
+17:14:55.576 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:14:55.580 [main] INFO  tests.userTest - Updating the user: vernia.sanford
+17:15:02.197 [main] INFO  tests.userTest - Deleting the user
+17:15:03.807 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:15:39.846 [main] INFO  tests.userTest - Creating new user...
+17:15:42.927 [main] INFO  tests.userTest - new user is created
+17:15:45.940 [main] INFO  tests.userTest - GET new user details
+17:15:49.600 [main] INFO  tests.userTest - Updating the user: jody.casper
+17:15:56.264 [main] INFO  tests.userTest - Sucessfully updated the user: jody.casper
+17:15:56.266 [main] INFO  tests.userTest - Deleting the user
+17:15:57.936 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:16:34.849 [main] INFO  tests.userTest - Creating new user...
+17:16:37.958 [main] INFO  tests.userTest - new user is created
+17:16:40.964 [main] INFO  tests.userTest - GET new user details
+17:16:42.651 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:16:44.668 [main] INFO  tests.userTest - Updating the user: cami.schamberger
+17:16:50.898 [main] INFO  tests.userTest - Sucessfully updated the user: cami.schamberger
+17:16:50.901 [main] INFO  tests.userTest - Deleting the user
+17:16:52.479 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:22:40.868 [main] INFO  tests.userTest - Creating new user...
+17:22:43.983 [main] INFO  tests.userTest - new user is created
+17:22:46.999 [main] INFO  tests.userTest - GET new user details
+17:22:50.705 [main] INFO  tests.userTest - Updating the user: lyndsey.jones
+17:22:56.964 [main] INFO  tests.userTest - Sucessfully updated the user: lyndsey.jones
+17:22:56.967 [main] INFO  tests.userTest - Deleting the user
+17:22:58.573 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:24:18.552 [main] INFO  tests.userTest - Creating new user...
+17:24:21.646 [main] INFO  tests.userTest - new user is created
+17:24:24.667 [main] INFO  tests.userTest - GET new user details
+17:24:26.281 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:24:28.287 [main] INFO  tests.userTest - Updating the user: lyle.johns
+17:24:34.940 [main] INFO  tests.userTest - Sucessfully updated the user: lyle.johns
+17:24:34.943 [main] INFO  tests.userTest - Deleting the user
+17:24:36.558 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:25:22.966 [main] INFO  tests.userTest - Creating new user...
+17:25:26.432 [main] INFO  tests.userTest - new user is created
+17:25:29.452 [main] INFO  tests.userTest - GET new user details
+17:25:31.136 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:25:33.143 [main] INFO  tests.userTest - Updating the user: robena.davis
+17:25:39.424 [main] INFO  tests.userTest - Sucessfully updated the user: robena.davis
+17:25:39.429 [main] INFO  tests.userTest - Deleting the user
+17:25:41.061 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:28:03.261 [main] INFO  tests.userTest - Creating new user...
+17:28:06.425 [main] INFO  tests.userTest - new user is created
+17:28:09.445 [main] INFO  tests.userTest - GET new user details
+17:28:11.526 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:28:13.543 [main] INFO  tests.userTest - Updating the user: orval.goldner
+17:28:19.856 [main] INFO  tests.userTest - Deleting the user
+17:28:21.419 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:29:48.559 [main] INFO  tests.userTest - Creating new user...
+17:29:51.751 [main] INFO  tests.userTest - new user is created
+17:29:54.770 [main] INFO  tests.userTest - GET new user details
+17:29:56.421 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:29:58.435 [main] INFO  tests.userTest - Updating the user: rene.marks
+17:30:04.670 [main] INFO  tests.userTest - Deleting the user
+17:30:45.915 [main] INFO  tests.userTest - Creating new user...
+17:30:49.080 [main] INFO  tests.userTest - new user is created
+17:30:52.099 [main] INFO  tests.userTest - GET new user details
+17:30:53.695 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:30:55.705 [main] INFO  tests.userTest - Updating the user: isaiah.gerhold
+17:31:02.316 [main] INFO  tests.userTest - Sucessfully updated the user: isaiah.gerhold
+17:31:02.319 [main] INFO  tests.userTest - Deleting the user
+17:31:03.928 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:31:41.624 [main] INFO  tests.userTest - Creating new user...
+17:31:45.099 [main] INFO  tests.userTest - new user is created
+17:31:48.107 [main] INFO  tests.userTest - GET new user details
+17:31:51.773 [main] INFO  tests.userTest - Updating the user: neely.armstrong
+17:31:55.000 [main] INFO  tests.userTest - Sucessfully updated the user: neely.armstrong
+17:31:55.004 [main] INFO  tests.userTest - Deleting the user
+17:33:36.050 [main] INFO  tests.userTest - Creating new user...
+17:33:39.238 [main] INFO  tests.userTest - new user is created
+17:33:42.252 [main] INFO  tests.userTest - GET new user details
+17:33:46.320 [main] INFO  tests.userTest - Updating the user: shiela.ritchie
+17:33:50.004 [main] INFO  tests.userTest - Sucessfully updated the user: shiela.ritchie
+17:33:50.006 [main] INFO  tests.userTest - Deleting the user
+17:34:20.824 [main] INFO  tests.userTest - Creating new user...
+17:34:23.863 [main] INFO  tests.userTest - new user is created
+17:34:26.886 [main] INFO  tests.userTest - GET new user details
+17:34:28.969 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:34:30.980 [main] INFO  tests.userTest - Updating the user: marcos.mueller
+17:34:37.736 [main] INFO  tests.userTest - Sucessfully updated the user: marcos.mueller
+17:34:37.743 [main] INFO  tests.userTest - Deleting the user
+17:34:39.365 [main] INFO  tests.userTest - new user is sucessfully deleted
+17:38:05.726 [main] INFO  tests.userTest - Creating new user...
+17:38:08.906 [main] INFO  tests.userTest - new user is created
+17:38:11.913 [main] INFO  tests.userTest - GET new user details
+17:38:13.511 [main] INFO  tests.userTest - New user details is sucessfully fetched
+17:38:15.524 [main] INFO  tests.userTest - Updating the user: tifany.beatty
+17:38:22.185 [main] INFO  tests.userTest - Sucessfully updated the user: tifany.beatty
+17:38:22.187 [main] INFO  tests.userTest - Deleting the user
+17:38:23.811 [main] INFO  tests.userTest - new user is sucessfully deleted
+22:40:04.139 [main] INFO  tests.userTest2 - Creating new user...
+22:40:08.320 [main] INFO  tests.userTest2 - new user is created
+22:40:11.331 [main] INFO  tests.userTest2 - GET new user details
+22:40:12.924 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+22:40:14.932 [main] INFO  tests.userTest2 - Updating the user: vergie.mckenzie
+22:40:14.988 [main] INFO  tests.userTest2 - Deleting the user
+22:41:56.420 [main] INFO  tests.userTest2 - Creating new user...
+22:42:00.422 [main] INFO  tests.userTest2 - new user is created
+22:42:03.438 [main] INFO  tests.userTest2 - GET new user details
+22:42:05.035 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+22:42:07.052 [main] INFO  tests.userTest2 - Updating the user: renato.connelly
+22:42:07.082 [main] INFO  tests.userTest2 - Deleting the user
+22:42:08.665 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+22:44:16.495 [main] INFO  tests.userTest2 - Creating new user...
+22:44:20.548 [main] INFO  tests.userTest2 - new user is created
+22:44:23.560 [main] INFO  tests.userTest2 - GET new user details
+22:44:25.137 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+22:44:27.150 [main] INFO  tests.userTest2 - Updating the user: thresa.streich
+22:44:33.400 [main] INFO  tests.userTest2 - Sucessfully updated the user: thresa.streich
+22:44:33.403 [main] INFO  tests.userTest2 - Deleting the user
+22:44:34.971 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+23:01:21.602 [main] INFO  tests.userTest2 - Creating new user...
+23:01:24.740 [main] INFO  tests.userTest2 - new user is created
+23:01:27.759 [main] INFO  tests.userTest2 - GET new user details
+23:01:29.428 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+23:01:31.442 [main] INFO  tests.userTest2 - Updating the user: mei.durgan
+23:01:37.528 [main] INFO  tests.userTest2 - Sucessfully updated the user: mei.durgan
+23:01:37.530 [main] INFO  tests.userTest2 - Deleting the user
+23:01:39.080 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+23:19:47.305 [main] INFO  tests.userTest2 - Creating new user...
+23:19:50.534 [main] INFO  tests.userTest2 - new user is created
+23:19:53.540 [main] INFO  tests.userTest2 - GET new user details
+23:19:55.586 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+23:19:57.589 [main] INFO  tests.userTest2 - Updating the user: maryetta.williamson
+23:20:04.251 [main] INFO  tests.userTest2 - Sucessfully updated the user: maryetta.williamson
+23:20:04.253 [main] INFO  tests.userTest2 - Deleting the user
+23:20:05.759 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+10:50:55.936 [main] INFO  tests.userTest2 - Creating new user...
+10:50:59.054 [main] INFO  tests.userTest2 - new user is created
+10:51:02.065 [main] INFO  tests.userTest2 - GET new user details
+10:51:05.240 [main] INFO  tests.userTest2 - Updating the user: donnell.altenwerth
+10:51:10.499 [main] INFO  tests.userTest2 - Sucessfully updated the user: donnell.altenwerth
+10:51:10.501 [main] INFO  tests.userTest2 - Deleting the user
+10:51:11.623 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+21:44:57.986 [main] INFO  tests.userTest2 - Creating new user...
+21:45:01.999 [main] INFO  tests.userTest2 - new user is created
+21:45:05.026 [main] INFO  tests.userTest2 - GET new user details
+21:45:08.703 [main] INFO  tests.userTest2 - Updating the user: ray.ohara
+21:45:15.835 [main] INFO  tests.userTest2 - Sucessfully updated the user: ray.ohara
+21:45:15.842 [main] INFO  tests.userTest2 - Deleting the user
+21:45:17.886 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+09:44:35.576 [main] INFO  tests.userTest2 - Creating new user...
+09:44:39.421 [main] INFO  tests.userTest2 - new user is created
+09:44:42.437 [main] INFO  tests.userTest2 - GET new user details
+09:44:46.664 [main] INFO  tests.userTest2 - Updating the user: shelby.weber
+09:44:53.524 [main] INFO  tests.userTest2 - Sucessfully updated the user: shelby.weber
+09:44:53.529 [main] INFO  tests.userTest2 - Deleting the user
+09:44:55.684 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+09:46:41.379 [main] INFO  tests.userTest2 - Creating new user...
+09:46:44.765 [main] INFO  tests.userTest2 - new user is created
+09:46:48.770 [main] INFO  tests.userTest2 - GET new user details
+09:46:50.554 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+09:46:52.562 [main] INFO  tests.userTest2 - Updating the user: casey.rogahn
+09:46:59.911 [main] INFO  tests.userTest2 - Sucessfully updated the user: casey.rogahn
+09:46:59.914 [main] INFO  tests.userTest2 - Deleting the user
+09:47:02.067 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+11:18:07.468 [main] INFO  tests.userTest2 - Creating new user...
+11:18:12.075 [main] INFO  tests.userTest2 - new user is created
+11:18:16.100 [main] INFO  tests.userTest2 - GET new user details
+11:18:18.473 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+11:18:20.484 [main] INFO  tests.userTest2 - Updating the user: shellie.hermiston
+11:18:28.084 [main] INFO  tests.userTest2 - Deleting the user
+23:20:51.765 [TestNG-test-Test-2] INFO  tests.userTest - Creating new user...
+23:20:54.970 [TestNG-test-Test-2] INFO  tests.userTest - new user is created
+23:20:54.970 [TestNG-test-Test-3] INFO  tests.userTest2 - new user is created
+23:20:57.982 [TestNG-test-Test-2] INFO  tests.userTest - GET new user details
+23:20:58.983 [TestNG-test-Test-3] INFO  tests.userTest2 - GET new user details
+23:20:59.721 [TestNG-test-Test-2] INFO  tests.userTest - New user details is sucessfully fetched
+23:21:00.729 [TestNG-test-Test-3] INFO  tests.userTest2 - New user details is sucessfully fetched
+23:21:01.737 [TestNG-test-Test-2] INFO  tests.userTest - Updating the user: john_doe_88
+23:21:01.768 [TestNG-test-Test-2] INFO  tests.userTest - Deleting the user
+23:21:02.747 [TestNG-test-Test-3] INFO  tests.userTest2 - Updating the user: john_doe_88
+23:21:03.772 [TestNG-test-Test-2] INFO  tests.userTest - new user is sucessfully deleted
+23:21:09.138 [TestNG-test-Test-3] INFO  tests.userTest2 - Deleting the user
+23:21:10.919 [TestNG-test-Test-3] INFO  tests.userTest2 - new user is sucessfully deleted
+23:40:27.453 [TestNG-test-Test-1] INFO  tests.userTest2 - Creating new user...
+23:40:31.560 [TestNG-test-Test-1] INFO  tests.userTest2 - new user is created
+23:40:35.581 [TestNG-test-Test-1] INFO  tests.userTest2 - GET new user details
+23:40:43.817 [TestNG-test-Test-1] INFO  tests.userTest2 - New user details is sucessfully fetched
+23:40:45.822 [TestNG-test-Test-1] INFO  tests.userTest2 - Updating the user: gregg.blanda
+23:40:52.025 [TestNG-test-Test-1] INFO  tests.userTest2 - Sucessfully updated the user: gregg.blanda
+23:40:52.028 [TestNG-test-Test-1] INFO  tests.userTest2 - Deleting the user
+23:40:53.693 [TestNG-test-Test-1] INFO  tests.userTest2 - new user is sucessfully deleted
+23:55:03.603 [TestNG-test-Test-1] INFO  tests.userTest2 - Creating new user...
+23:55:07.687 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:55:07.729 [TestNG-test-Test-1] INFO  tests.userTest2 - new user is created
+23:55:11.742 [TestNG-test-Test-1] INFO  tests.userTest2 - GET new user details
+23:55:13.327 [TestNG-test-Test-1] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+23:55:19.975 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 2
+23:55:19.978 [TestNG-test-Test-1] INFO  tests.userTest2 - New user details is sucessfully fetched
+23:55:21.987 [TestNG-test-Test-1] INFO  tests.userTest2 - Updating the user: shirly.mclaughlin
+23:55:23.562 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:55:28.080 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:55:28.081 [TestNG-test-Test-1] INFO  tests.userTest2 - Sucessfully updated the user: shirly.mclaughlin
+23:55:28.085 [TestNG-test-Test-1] INFO  tests.userTest2 - Deleting the user
+23:55:29.658 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:55:29.660 [TestNG-test-Test-1] INFO  tests.userTest2 - new user is sucessfully deleted
+23:58:28.761 [TestNG-test-Test-1] INFO  tests.userTest2 - Creating new user...
+23:58:32.788 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:58:32.820 [TestNG-test-Test-1] INFO  tests.userTest2 - new user is created
+23:58:32.825 [TestNG-test-Test-1] INFO  tests.userTest2 - GET new user details
+23:58:34.525 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:58:34.527 [TestNG-test-Test-1] INFO  tests.userTest2 - New user details is sucessfully fetched
+23:58:34.531 [TestNG-test-Test-1] INFO  tests.userTest2 - Updating the user: randall.shanahan
+23:58:34.531 [TestNG-test-Test-1] INFO  tests.userTest2 - before update fname:Jamel
+23:58:34.531 [TestNG-test-Test-1] INFO  tests.userTest2 - before update lname:Gutmann
+23:58:34.531 [TestNG-test-Test-1] INFO  tests.userTest2 - before update fname:leonie.hauck@example.com
+23:58:34.532 [TestNG-test-Test-1] INFO  tests.userTest2 - After update fname:Royal
+23:58:34.533 [TestNG-test-Test-1] INFO  tests.userTest2 - After update fname:Royal
+23:58:34.533 [TestNG-test-Test-1] INFO  tests.userTest2 - After update lname:Kohler
+23:58:34.533 [TestNG-test-Test-1] INFO  tests.userTest2 - After update fname:daniell.auer@example.com
+23:58:36.139 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:58:37.732 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:58:37.734 [TestNG-test-Test-1] INFO  tests.userTest2 - Sucessfully updated the user: randall.shanahan
+23:58:37.738 [TestNG-test-Test-1] INFO  tests.userTest2 - Deleting the user
+23:58:39.344 [TestNG-test-Test-1] INFO  tests.userTest2 - ✅ Success on attempt 1
+23:58:39.345 [TestNG-test-Test-1] INFO  tests.userTest2 - new user is sucessfully deleted
+14:54:11.091 [main] INFO  tests.userTest2 - Creating new user...
+14:54:15.211 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+14:54:15.275 [main] INFO  tests.userTest2 - new user is created
+14:54:15.290 [main] INFO  tests.userTest2 - GET new user details
+14:54:16.963 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+14:54:16.971 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+14:54:16.981 [main] INFO  tests.userTest2 - Updating the user: evelin.cassin
+14:54:16.981 [main] INFO  tests.userTest2 - before update fname:Lonny
+14:54:16.981 [main] INFO  tests.userTest2 - before update lname:Gibson
+14:54:16.982 [main] INFO  tests.userTest2 - before update fname:harrison.satterfield@example.com
+14:54:16.983 [main] INFO  tests.userTest2 - After update fname:Doreatha
+14:54:16.983 [main] INFO  tests.userTest2 - After update fname:Doreatha
+14:54:16.983 [main] INFO  tests.userTest2 - After update lname:Berge
+14:54:16.983 [main] INFO  tests.userTest2 - After update fname:otelia.bartell@example.com
+14:54:18.588 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+14:54:20.313 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+14:54:26.957 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+14:54:34.137 [main] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+14:54:40.742 [main] INFO  tests.userTest2 - ✅ Success on attempt 4
+14:54:40.746 [main] INFO  tests.userTest2 - Sucessfully updated the user: evelin.cassin
+14:54:40.752 [main] INFO  tests.userTest2 - Deleting the user
+14:54:42.401 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+14:54:42.405 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+15:01:40.949 [main] INFO  tests.userTest2 - Creating new user...
+15:01:45.862 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:01:45.917 [main] INFO  tests.userTest2 - new user is created
+15:01:45.928 [main] INFO  tests.userTest2 - GET new user details
+15:01:47.589 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:01:48.274 [main] INFO  tests.userTest2 - Updating the user: roscoe.kovacek
+15:01:48.275 [main] INFO  tests.userTest2 - before update fname:Steffanie
+15:01:48.275 [main] INFO  tests.userTest2 - before update lname:Vandervort
+15:01:48.275 [main] INFO  tests.userTest2 - before update fname:terrance.emard@example.com
+15:01:48.277 [main] INFO  tests.userTest2 - After update fname:Kate
+15:01:48.277 [main] INFO  tests.userTest2 - After update fname:Kate
+15:01:48.277 [main] INFO  tests.userTest2 - After update lname:Kautzer
+15:01:48.277 [main] INFO  tests.userTest2 - After update fname:tamesha.kilback@example.com
+15:01:49.889 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:01:51.513 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:01:51.517 [main] INFO  tests.userTest2 - Sucessfully updated the user: roscoe.kovacek
+15:01:51.522 [main] INFO  tests.userTest2 - Deleting the user
+15:01:53.226 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:01:53.230 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+15:02:52.877 [main] INFO  tests.userTest2 - Creating new user...
+15:02:57.678 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:02:58.301 [main] INFO  tests.userTest2 - new user is created
+15:02:58.313 [main] INFO  tests.userTest2 - GET new user details
+15:02:59.959 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+15:03:06.648 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+15:03:13.313 [main] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+15:03:19.949 [main] INFO  tests.userTest2 - ❌ Attempt 4 failed. Status: 404
+15:03:26.582 [main] INFO  tests.userTest2 - ✅ Success on attempt 5
+15:03:26.590 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+15:03:26.596 [main] INFO  tests.userTest2 - Updating the user: wilbur.west
+15:03:26.597 [main] INFO  tests.userTest2 - before update fname:Isreal
+15:03:26.597 [main] INFO  tests.userTest2 - before update lname:Jaskolski
+15:03:26.597 [main] INFO  tests.userTest2 - before update fname:claude.spencer@example.com
+15:03:26.598 [main] INFO  tests.userTest2 - After update fname:Courtney
+15:03:26.598 [main] INFO  tests.userTest2 - After update fname:Courtney
+15:03:26.598 [main] INFO  tests.userTest2 - After update lname:Tromp
+15:03:26.599 [main] INFO  tests.userTest2 - After update fname:leoma.braun@example.com
+15:03:29.265 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:03:31.241 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:03:31.244 [main] INFO  tests.userTest2 - Sucessfully updated the user: wilbur.west
+15:03:31.250 [main] INFO  tests.userTest2 - Deleting the user
+15:03:32.924 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:03:32.928 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+15:50:42.779 [main] INFO  tests.userTest2 - Creating new user...
+15:50:46.686 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:50:47.738 [main] INFO  tests.userTest2 - new user is created
+15:50:47.752 [main] INFO  tests.userTest2 - GET new user details
+15:50:49.530 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:50:49.537 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+15:50:49.543 [main] INFO  tests.userTest2 - Updating the user: donnette.mitchell
+15:50:49.543 [main] INFO  tests.userTest2 - before update fname:Tran
+15:50:49.543 [main] INFO  tests.userTest2 - before update lname:O'Hara
+15:50:49.544 [main] INFO  tests.userTest2 - before update fname:terrence.klein@example.com
+15:50:49.545 [main] INFO  tests.userTest2 - After update fname:Conchita
+15:50:49.545 [main] INFO  tests.userTest2 - After update fname:Conchita
+15:50:49.545 [main] INFO  tests.userTest2 - After update lname:Monahan
+15:50:49.545 [main] INFO  tests.userTest2 - After update fname:suzanne.hirthe@example.com
+15:50:51.135 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:50:52.726 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:50:52.729 [main] INFO  tests.userTest2 - Sucessfully updated the user: donnette.mitchell
+15:50:52.739 [main] INFO  tests.userTest2 - Deleting the user
+15:50:54.374 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+15:50:54.378 [main] INFO  tests.userTest2 - new user is sucessfully deleted
