@@ -6,14 +6,14 @@
 </listeners>
   <test thread-count="5" parallel = "classes" name="Test1_parallel">
     <classes>
-    <class name="tests.userTest"/>
+    <class name="tests.DdUserTest"/>
      <class name="tests.userTest2"/>
      <!--<class name="runners.TestRunner"/>-->
     </classes>
   </test> <!-- Test -->
   <test thread-count="5"  name="Test2_sequnetial">
     <classes>
-    <class name="tests.userTest"/>
+    <class name="tests.DdUserTest"/>
      <class name="tests.userTest2"/>
      <!--<class name="runners.TestRunner"/>-->
     </classes>

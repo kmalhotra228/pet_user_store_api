@@ -1,33 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-03T15:50:41 IST" name="Suite" finished-at="2025-08-03T15:50:54 IST" duration-ms="12930">
+  <suite started-at="2025-08-03T23:55:46 IST" name="Suite" finished-at="2025-08-03T23:56:00 IST" duration-ms="13900">
     <groups>
     </groups>
-    <test started-at="2025-08-03T15:50:41 IST" name="Test" finished-at="2025-08-03T15:50:54 IST" duration-ms="12930">
-      <class name="tests.userTest2">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:tests.userTest2@710f4dc7]" started-at="2025-08-03T15:50:41 IST" name="setUpData" finished-at="2025-08-03T15:50:42 IST" duration-ms="949" status="PASS">
+    <test started-at="2025-08-03T23:55:46 IST" name="Test" finished-at="2025-08-03T23:56:00 IST" duration-ms="13900">
+      <class name="tests.DdUserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:47 IST" name="setUp" finished-at="2025-08-03T23:55:47 IST" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpData -->
-        <test-method signature="testPostUser()[pri:1, instance:tests.userTest2@710f4dc7]" started-at="2025-08-03T15:50:42 IST" name="testPostUser" finished-at="2025-08-03T15:50:47 IST" duration-ms="4993" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:48 IST" name="beforeTestMethod" finished-at="2025-08-03T23:55:48 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DdUserTest.testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:48 IST" name="testPostUser" description="create a user with valid payload" data-provider="datas" finished-at="2025-08-03T23:55:52 IST" duration-ms="4607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qapitol]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc@qapitol.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.988776655E9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUserByName()[pri:2, instance:tests.userTest2@710f4dc7]" started-at="2025-08-03T15:50:47 IST" name="testGetUserByName" finished-at="2025-08-03T15:50:49 IST" duration-ms="1788" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:52 IST" name="beforeTestMethod" finished-at="2025-08-03T23:55:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DdUserTest.testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUserByName -->
-        <test-method signature="testUpdateUserByName()[pri:3, instance:tests.userTest2@710f4dc7]" started-at="2025-08-03T15:50:49 IST" name="testUpdateUserByName" finished-at="2025-08-03T15:50:52 IST" duration-ms="3189" status="PASS">
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:52 IST" name="testPostUser" description="create a user with valid payload" data-provider="datas" finished-at="2025-08-03T23:55:54 IST" duration-ms="1634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qapitol]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[xyz@qapitol.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8.899776655E9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUpdateUserByName -->
-        <test-method signature="testDeleteUserByName()[pri:4, instance:tests.userTest2@710f4dc7]" started-at="2025-08-03T15:50:52 IST" name="testDeleteUserByName" finished-at="2025-08-03T15:50:54 IST" duration-ms="1642" status="PASS">
+        </test-method> <!-- testPostUser -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:54 IST" name="beforeTestMethod" finished-at="2025-08-03T23:55:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DdUserTest.testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:54 IST" name="testPostUser" description="create a user with valid payload" data-provider="datas" finished-at="2025-08-03T23:55:55 IST" duration-ms="1612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1030]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwe123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qapitol]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwe@qapitol.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qwe@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7.788996655E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:55 IST" name="beforeTestMethod" finished-at="2025-08-03T23:55:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DdUserTest.testDeleteUserByName(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="testDeleteUserByName(java.lang.String)[pri:2, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:55 IST" name="testDeleteUserByName" data-provider="usernames" finished-at="2025-08-03T23:55:57 IST" duration-ms="1597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUserByName -->
-      </class> <!-- tests.userTest2 -->
+        <test-method signature="testDeleteUserByName(java.lang.String)[pri:2, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:57 IST" name="testDeleteUserByName" data-provider="usernames" finished-at="2025-08-03T23:55:59 IST" duration-ms="1645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:57 IST" name="beforeTestMethod" finished-at="2025-08-03T23:55:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DdUserTest.testDeleteUserByName(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:59 IST" name="beforeTestMethod" finished-at="2025-08-03T23:55:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DdUserTest.testDeleteUserByName(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="testDeleteUserByName(java.lang.String)[pri:2, instance:tests.DdUserTest@45c7e403]" started-at="2025-08-03T23:55:59 IST" name="testDeleteUserByName" data-provider="usernames" finished-at="2025-08-03T23:56:00 IST" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwe123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- tests.DdUserTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
