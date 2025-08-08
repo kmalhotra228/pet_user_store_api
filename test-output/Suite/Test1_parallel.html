@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test1_parallel</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 03 23:36:54 IST 2025</td>
+<td>Started on:</td><td>Wed Aug 06 12:30:21 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13729 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30791 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,53 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.userTest2.testPostUser()'><b>testPostUser</b><br>Test class: tests.userTest2</td>
-<td><div><pre>java.lang.AssertionError: expected [1020] but found [1010]
-	at tests.userTest2.testPostUser(userTest2.java:47)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1319789787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1319789787'><pre>java.lang.AssertionError: expected [1020] but found [1010]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1431)
-	at org.testng.Assert.assertEquals(Assert.java:1395)
-	at org.testng.Assert.assertEquals(Assert.java:1441)
-	at tests.userTest2.testPostUser(userTest2.java:47)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>5</td>
-<td>tests.userTest2@510f3d34</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -123,50 +76,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.DdUserTest.testPostUser()'><b>testPostUser</b><br>Test class: tests.DdUserTest<br>Parameters: 1020, xyz123, xyz, qapitol, xyz@qapitol.com, xyz@123, 8.899776655E9</td>
+<td title='tests.DdUserTest.testPostUser()'><b>testPostUser</b><br>Test class: tests.DdUserTest<br>Test method: create a user with valid payload<br>Parameters: 1020, xyz123, xyz, qapitol, xyz@qapitol.com, xyz@123, 8.899776655E9</td>
 <td></td>
 <td>1</td>
-<td>tests.DdUserTest@2925bf5b</td></tr>
+<td>tests.DdUserTest@45c7e403</td></tr>
 <tr>
-<td title='tests.userTest2.testUpdateUserByName()'><b>testUpdateUserByName</b><br>Test class: tests.userTest2</td>
+<td title='tests.userTest2.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.userTest2<br>Test method: Delete User that is created with Faker Payload</td>
+<td></td>
+<td>1</td>
+<td>tests.userTest2@6ad82709</td></tr>
+<tr>
+<td title='tests.DdUserTest.testPostUser()'><b>testPostUser</b><br>Test class: tests.DdUserTest<br>Test method: create a user with valid payload<br>Parameters: 1030, qwe123, qwe, qapitol, qwe@qapitol.com, qwe@123, 7.788996655E9</td>
+<td></td>
+<td>1</td>
+<td>tests.DdUserTest@45c7e403</td></tr>
+<tr>
+<td title='tests.userTest2.testGetUserByName()'><b>testGetUserByName</b><br>Test class: tests.userTest2<br>Test method: GET a User details that is created with Faker</td>
+<td></td>
+<td>1</td>
+<td>tests.userTest2@6ad82709</td></tr>
+<tr>
+<td title='tests.DdUserTest.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.DdUserTest<br>Parameters: qwe123</td>
+<td></td>
+<td>13</td>
+<td>tests.DdUserTest@45c7e403</td></tr>
+<tr>
+<td title='tests.DdUserTest.testPostUser()'><b>testPostUser</b><br>Test class: tests.DdUserTest<br>Test method: create a user with valid payload<br>Parameters: 1010, abc123, abc, qapitol, abc@qapitol.com, abc@123, 9.988776655E9</td>
 <td></td>
 <td>3</td>
-<td>tests.userTest2@510f3d34</td></tr>
+<td>tests.DdUserTest@45c7e403</td></tr>
 <tr>
-<td title='tests.DdUserTest.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.DdUserTest<br>Parameters: xyz123</td>
+<td title='tests.userTest2.testUpdateUserByName()'><b>testUpdateUserByName</b><br>Test class: tests.userTest2<br>Test method: Update User details i.e FirstName, LastName & Email by PUT request</td>
 <td></td>
-<td>1</td>
-<td>tests.DdUserTest@2925bf5b</td></tr>
+<td>2</td>
+<td>tests.userTest2@6ad82709</td></tr>
 <tr>
 <td title='tests.DdUserTest.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.DdUserTest<br>Parameters: abc123</td>
 <td></td>
 <td>1</td>
-<td>tests.DdUserTest@2925bf5b</td></tr>
+<td>tests.DdUserTest@45c7e403</td></tr>
 <tr>
-<td title='tests.userTest2.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.userTest2</td>
+<td title='tests.userTest2.testPostUser()'><b>testPostUser</b><br>Test class: tests.userTest2<br>Test method: POST a New User with Faker Payload</td>
 <td></td>
-<td>1</td>
-<td>tests.userTest2@510f3d34</td></tr>
+<td>5</td>
+<td>tests.userTest2@6ad82709</td></tr>
 <tr>
-<td title='tests.userTest2.testGetUserByName()'><b>testGetUserByName</b><br>Test class: tests.userTest2</td>
+<td title='tests.DdUserTest.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.DdUserTest<br>Parameters: xyz123</td>
 <td></td>
-<td>1</td>
-<td>tests.userTest2@510f3d34</td></tr>
-<tr>
-<td title='tests.DdUserTest.testPostUser()'><b>testPostUser</b><br>Test class: tests.DdUserTest<br>Parameters: 1030, qwe123, qwe, qapitol, qwe@qapitol.com, qwe@123, 7.788996655E9</td>
-<td></td>
-<td>1</td>
-<td>tests.DdUserTest@2925bf5b</td></tr>
-<tr>
-<td title='tests.DdUserTest.testPostUser()'><b>testPostUser</b><br>Test class: tests.DdUserTest<br>Parameters: 1010, abc123, abc, qapitol, abc@qapitol.com, abc@123, 9.988776655E9</td>
-<td></td>
-<td>4</td>
-<td>tests.DdUserTest@2925bf5b</td></tr>
-<tr>
-<td title='tests.DdUserTest.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: tests.DdUserTest<br>Parameters: qwe123</td>
-<td></td>
-<td>1</td>
-<td>tests.DdUserTest@2925bf5b</td></tr>
+<td>7</td>
+<td>tests.DdUserTest@45c7e403</td></tr>
 </table><p>
 </body>
 </html>

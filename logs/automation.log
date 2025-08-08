@@ -37,3 +37,630 @@
 23:55:59.221 [main] INFO  tests.DdUserTest - delete user is intialised...
 23:56:00.786 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
 23:56:00.794 [main] INFO  tests.DdUserTest - delete user is completed
+09:30:51.517 [main] INFO  tests.DdUserTest - Before setUp is done logger & gson object is intialised
+09:30:52.148 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+09:30:52.170 [main] INFO  tests.DdUserTest - User payload is created
+09:30:52.178 [main] INFO  tests.DdUserTest - {
+  "id": 1010,
+  "username": "abc123",
+  "firstName": "abc",
+  "lastName": "qapitol",
+  "email": "abc@qapitol.com",
+  "password": "abc@123",
+  "phone": "9.988776655E9",
+  "userStatus": 0
+}
+09:30:55.706 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:30:56.034 [main] INFO  tests.DdUserTest - create user is completed
+09:30:56.042 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+09:30:56.042 [main] INFO  tests.DdUserTest - User payload is created
+09:30:56.042 [main] INFO  tests.DdUserTest - {
+  "id": 1020,
+  "username": "xyz123",
+  "firstName": "xyz",
+  "lastName": "qapitol",
+  "email": "xyz@qapitol.com",
+  "password": "xyz@123",
+  "phone": "8.899776655E9",
+  "userStatus": 0
+}
+09:30:57.686 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:30:57.695 [main] INFO  tests.DdUserTest - create user is completed
+09:30:57.699 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+09:30:57.699 [main] INFO  tests.DdUserTest - User payload is created
+09:30:57.699 [main] INFO  tests.DdUserTest - {
+  "id": 1030,
+  "username": "qwe123",
+  "firstName": "qwe",
+  "lastName": "qapitol",
+  "email": "qwe@qapitol.com",
+  "password": "qwe@123",
+  "phone": "7.788996655E9",
+  "userStatus": 0
+}
+09:30:59.272 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:30:59.280 [main] INFO  tests.DdUserTest - create user is completed
+09:30:59.322 [main] INFO  tests.DdUserTest - delete user is intialised...
+09:31:01.001 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:31:01.007 [main] INFO  tests.DdUserTest - delete user is completed
+09:31:01.011 [main] INFO  tests.DdUserTest - delete user is intialised...
+09:31:02.668 [main] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+09:31:09.295 [main] INFO  tests.DdUserTest - ❌ Attempt 2 failed. Status: 404
+09:31:15.912 [main] INFO  tests.DdUserTest - ❌ Attempt 3 failed. Status: 404
+09:31:22.532 [main] INFO  tests.DdUserTest - ❌ Attempt 4 failed. Status: 404
+09:31:29.209 [main] INFO  tests.DdUserTest - ✅ Success on attempt 5
+09:31:29.216 [main] INFO  tests.DdUserTest - delete user is completed
+09:31:29.219 [main] INFO  tests.DdUserTest - delete user is intialised...
+09:31:30.811 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:31:30.819 [main] INFO  tests.DdUserTest - delete user is completed
+09:48:08.954 [main] INFO  tests.DdUserTest - Before setUp is done logger & gson object is intialised
+09:48:09.503 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+09:48:09.529 [main] INFO  tests.DdUserTest - User payload is created
+09:48:09.535 [main] INFO  tests.DdUserTest - {
+  "id": 1010,
+  "username": "abc123",
+  "firstName": "abc",
+  "lastName": "qapitol",
+  "email": "abc@qapitol.com",
+  "password": "abc@123",
+  "phone": "9.988776655E9",
+  "userStatus": 0
+}
+09:48:12.897 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:48:13.180 [main] INFO  tests.DdUserTest - create user is completed
+09:48:13.187 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+09:48:13.187 [main] INFO  tests.DdUserTest - User payload is created
+09:48:13.187 [main] INFO  tests.DdUserTest - {
+  "id": 1020,
+  "username": "xyz123",
+  "firstName": "xyz",
+  "lastName": "qapitol",
+  "email": "xyz@qapitol.com",
+  "password": "xyz@123",
+  "phone": "8.899776655E9",
+  "userStatus": 0
+}
+09:48:14.837 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:48:14.844 [main] INFO  tests.DdUserTest - create user is completed
+09:48:14.848 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+09:48:14.848 [main] INFO  tests.DdUserTest - User payload is created
+09:48:14.848 [main] INFO  tests.DdUserTest - {
+  "id": 1030,
+  "username": "qwe123",
+  "firstName": "qwe",
+  "lastName": "qapitol",
+  "email": "qwe@qapitol.com",
+  "password": "qwe@123",
+  "phone": "7.788996655E9",
+  "userStatus": 0
+}
+09:48:16.497 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:48:16.504 [main] INFO  tests.DdUserTest - create user is completed
+09:48:16.539 [main] INFO  tests.DdUserTest - delete user is intialised...
+09:48:18.216 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:48:18.225 [main] INFO  tests.DdUserTest - delete user is completed
+09:48:18.228 [main] INFO  tests.DdUserTest - delete user is intialised...
+09:48:19.820 [main] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+09:48:26.494 [main] INFO  tests.DdUserTest - ✅ Success on attempt 2
+09:48:26.500 [main] INFO  tests.DdUserTest - delete user is completed
+09:48:26.502 [main] INFO  tests.DdUserTest - delete user is intialised...
+09:48:28.055 [main] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+09:48:34.670 [main] INFO  tests.DdUserTest - ❌ Attempt 2 failed. Status: 404
+09:48:41.287 [main] INFO  tests.DdUserTest - ✅ Success on attempt 3
+09:48:41.293 [main] INFO  tests.DdUserTest - delete user is completed
+09:55:14.552 [main] INFO  tests.userTest2 - Creating new user...
+09:55:17.911 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:55:18.639 [main] INFO  tests.userTest2 - new user is created
+09:55:18.649 [main] INFO  tests.userTest2 - GET new user details
+09:55:20.321 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+09:55:26.957 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+09:55:26.981 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+09:55:26.985 [main] INFO  tests.userTest2 - Updating the user: odell.mante
+09:55:26.986 [main] INFO  tests.userTest2 - before update fname:Clarisa
+09:55:26.986 [main] INFO  tests.userTest2 - before update lname:Wolff
+09:55:26.986 [main] INFO  tests.userTest2 - before update fname:vito.bode@example.com
+09:55:26.987 [main] INFO  tests.userTest2 - After update fname:Tyisha
+09:55:26.987 [main] INFO  tests.userTest2 - After update fname:Tyisha
+09:55:26.987 [main] INFO  tests.userTest2 - After update lname:Altenwerth
+09:55:26.987 [main] INFO  tests.userTest2 - After update fname:marianna.kerluke@example.com
+09:55:28.562 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:55:30.130 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:55:30.136 [main] INFO  tests.userTest2 - Sucessfully updated the user: odell.mante
+09:55:30.139 [main] INFO  tests.userTest2 - Deleting the user
+09:55:31.747 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:55:31.754 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+09:58:32.156 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Creating new user...
+09:58:32.615 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+09:58:32.615 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+09:58:32.616 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1010,
+  "username": "abc123",
+  "firstName": "abc",
+  "lastName": "qapitol",
+  "email": "abc@qapitol.com",
+  "password": "abc@123",
+  "phone": "9.988776655E9",
+  "userStatus": 0
+}
+09:58:35.638 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:58:35.659 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:58:35.903 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+09:58:35.909 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+09:58:35.909 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+09:58:35.909 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1020,
+  "username": "xyz123",
+  "firstName": "xyz",
+  "lastName": "qapitol",
+  "email": "xyz@qapitol.com",
+  "password": "xyz@123",
+  "phone": "8.899776655E9",
+  "userStatus": 0
+}
+09:58:36.438 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - GET new user details
+09:58:37.481 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:58:37.490 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+09:58:37.492 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+09:58:37.492 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+09:58:37.493 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1030,
+  "username": "qwe123",
+  "firstName": "qwe",
+  "lastName": "qapitol",
+  "email": "qwe@qapitol.com",
+  "password": "qwe@123",
+  "phone": "7.788996655E9",
+  "userStatus": 0
+}
+09:58:38.057 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+09:58:39.140 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+09:58:39.149 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+09:58:39.179 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+09:58:40.779 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+09:58:44.624 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+09:58:47.390 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 2
+09:58:47.400 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+09:58:47.404 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+09:58:49.354 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+09:58:51.249 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+09:58:56.015 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 2
+09:58:56.023 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+09:58:56.025 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+09:58:57.632 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+09:58:57.844 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 4 failed. Status: 404
+09:59:04.209 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 2
+09:59:04.216 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+09:59:04.469 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 5 failed. Status: 404
+09:59:09.493 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Updating the user: qwe123
+09:59:09.494 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update fname:qwe
+09:59:09.494 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update lname:qapitol
+09:59:09.494 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update fname:qwe@qapitol.com
+09:59:09.494 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:Cletus
+09:59:09.495 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:Cletus
+09:59:09.495 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update lname:Schuppe
+09:59:09.495 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:robin.parker@example.com
+09:59:11.162 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:59:12.791 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:59:12.799 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Sucessfully updated the user: qwe123
+09:59:12.801 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Deleting the user
+09:59:14.390 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+09:59:14.395 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - new user is sucessfully deleted
+10:05:24.285 [main] INFO  tests.DdUserTest - Before setUp is done logger & gson object is intialised
+10:05:24.789 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+10:05:24.818 [main] INFO  tests.DdUserTest - User payload is created
+10:05:24.827 [main] INFO  tests.DdUserTest - {
+  "id": 1010,
+  "username": "abc123",
+  "firstName": "abc",
+  "lastName": "qapitol",
+  "email": "abc@qapitol.com",
+  "password": "abc@123",
+  "phone": "9.988776655E9",
+  "userStatus": 0
+}
+10:05:28.155 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:05:28.428 [main] INFO  tests.DdUserTest - create user is completed
+10:05:28.434 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+10:05:28.434 [main] INFO  tests.DdUserTest - User payload is created
+10:05:28.435 [main] INFO  tests.DdUserTest - {
+  "id": 1020,
+  "username": "xyz123",
+  "firstName": "xyz",
+  "lastName": "qapitol",
+  "email": "xyz@qapitol.com",
+  "password": "xyz@123",
+  "phone": "8.899776655E9",
+  "userStatus": 0
+}
+10:05:30.050 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:05:30.056 [main] INFO  tests.DdUserTest - create user is completed
+10:05:30.058 [main] INFO  tests.DdUserTest - Create a new user is intialised...
+10:05:30.060 [main] INFO  tests.DdUserTest - User payload is created
+10:05:30.060 [main] INFO  tests.DdUserTest - {
+  "id": 1030,
+  "username": "qwe123",
+  "firstName": "qwe",
+  "lastName": "qapitol",
+  "email": "qwe@qapitol.com",
+  "password": "qwe@123",
+  "phone": "7.788996655E9",
+  "userStatus": 0
+}
+10:05:31.665 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:05:31.671 [main] INFO  tests.DdUserTest - create user is completed
+10:05:31.704 [main] INFO  tests.DdUserTest - delete user is intialised...
+10:05:33.796 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:05:33.805 [main] INFO  tests.DdUserTest - delete user is completed
+10:05:33.808 [main] INFO  tests.DdUserTest - delete user is intialised...
+10:05:36.781 [main] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+10:05:43.385 [main] INFO  tests.DdUserTest - ❌ Attempt 2 failed. Status: 404
+10:05:50.040 [main] INFO  tests.DdUserTest - ❌ Attempt 3 failed. Status: 404
+10:05:56.681 [main] INFO  tests.DdUserTest - ✅ Success on attempt 4
+10:05:56.687 [main] INFO  tests.DdUserTest - delete user is completed
+10:05:56.689 [main] INFO  tests.DdUserTest - delete user is intialised...
+10:05:58.376 [main] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:05:58.383 [main] INFO  tests.DdUserTest - delete user is completed
+10:05:58.518 [main] INFO  tests.userTest2 - Creating new user...
+10:06:00.493 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+10:06:00.916 [main] INFO  tests.userTest2 - new user is created
+10:06:00.920 [main] INFO  tests.userTest2 - GET new user details
+10:06:02.547 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+10:06:09.168 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+10:06:15.780 [main] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+10:06:22.341 [main] INFO  tests.userTest2 - ✅ Success on attempt 4
+10:06:22.353 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+10:06:22.373 [main] INFO  tests.userTest2 - Updating the user: audie.okeefe
+10:06:22.374 [main] INFO  tests.userTest2 - before update fname:Billie
+10:06:22.374 [main] INFO  tests.userTest2 - before update lname:Marvin
+10:06:22.374 [main] INFO  tests.userTest2 - before update fname:eugene.gibson@example.com
+10:06:22.374 [main] INFO  tests.userTest2 - After update fname:Melvin
+10:06:22.374 [main] INFO  tests.userTest2 - After update fname:Melvin
+10:06:22.374 [main] INFO  tests.userTest2 - After update lname:Rempel
+10:06:22.374 [main] INFO  tests.userTest2 - After update fname:ossie.kovacek@example.com
+10:06:23.998 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+10:06:25.617 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+10:06:32.300 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+10:06:38.932 [main] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+10:06:45.493 [main] INFO  tests.userTest2 - ✅ Success on attempt 4
+10:06:45.500 [main] INFO  tests.userTest2 - Sucessfully updated the user: audie.okeefe
+10:06:45.503 [main] INFO  tests.userTest2 - Deleting the user
+10:06:47.147 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+10:06:53.742 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+10:06:53.746 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+10:26:32.353 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Before setUp is done logger & gson object is intialised
+10:26:33.127 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+10:26:33.127 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+10:26:33.128 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1010,
+  "username": "abc123",
+  "firstName": "abc",
+  "lastName": "qapitol",
+  "email": "abc@qapitol.com",
+  "password": "abc@123",
+  "phone": "9.988776655E9",
+  "userStatus": 0
+}
+10:26:35.779 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:26:35.779 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+10:26:36.007 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+10:26:36.021 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+10:26:36.021 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+10:26:36.022 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1020,
+  "username": "xyz123",
+  "firstName": "xyz",
+  "lastName": "qapitol",
+  "email": "xyz@qapitol.com",
+  "password": "xyz@123",
+  "phone": "8.899776655E9",
+  "userStatus": 0
+}
+10:26:36.487 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - new user is created
+10:26:36.491 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - GET new user details
+10:26:37.622 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:26:37.629 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+10:26:37.631 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+10:26:37.632 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+10:26:37.632 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1030,
+  "username": "qwe123",
+  "firstName": "qwe",
+  "lastName": "qapitol",
+  "email": "qwe@qapitol.com",
+  "password": "qwe@123",
+  "phone": "7.788996655E9",
+  "userStatus": 0
+}
+10:26:38.108 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+10:26:39.223 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:26:39.229 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+10:26:39.258 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+10:26:40.856 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+10:26:44.753 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+10:26:47.446 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 2
+10:26:47.454 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+10:26:47.456 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+10:26:49.087 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+10:26:51.409 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 3
+10:26:51.424 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - New user details is sucessfully fetched
+10:26:51.427 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Updating the user: conrad.ruecker
+10:26:51.427 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update fname:Nathanial
+10:26:51.427 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update lname:MacGyver
+10:26:51.427 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update fname:ignacio.cartwright@example.com
+10:26:51.428 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:Erasmo
+10:26:51.428 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:Erasmo
+10:26:51.428 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update lname:Thompson
+10:26:51.428 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:aisha.robel@example.com
+10:26:53.009 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+10:26:53.023 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 1: parameterValue cannot be null
+10:26:55.681 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 2 failed. Status: 404
+10:26:58.033 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 2: parameterValue cannot be null
+10:27:02.326 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 3 failed. Status: 404
+10:27:03.046 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 3: parameterValue cannot be null
+10:27:08.047 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 4: parameterValue cannot be null
+10:27:09.042 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 4
+10:27:09.050 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+10:27:09.052 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+10:27:10.649 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+10:27:10.657 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+10:27:13.056 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 5: parameterValue cannot be null
+10:27:18.075 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Deleting the user
+10:27:18.088 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 1: parameterValue cannot be null
+10:27:23.097 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 2: parameterValue cannot be null
+10:27:28.109 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 3: parameterValue cannot be null
+10:27:33.111 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 4: parameterValue cannot be null
+10:27:38.124 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ⚠️ Exception on attempt 5: parameterValue cannot be null
+10:28:13.945 [main] INFO  tests.userTest2 - Creating new user...
+10:28:17.104 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+10:28:17.731 [main] INFO  tests.userTest2 - new user is created
+10:28:17.740 [main] INFO  tests.userTest2 - GET new user details
+10:28:19.369 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+10:28:25.947 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+10:28:25.969 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+10:28:25.972 [main] INFO  tests.userTest2 - Updating the user: evan.hermiston
+10:28:25.973 [main] INFO  tests.userTest2 - before update fname:Agueda
+10:28:25.973 [main] INFO  tests.userTest2 - before update lname:Stroman
+10:28:25.973 [main] INFO  tests.userTest2 - before update fname:stephane.okeefe@example.com
+10:28:25.974 [main] INFO  tests.userTest2 - After update fname:Arlette
+10:28:25.974 [main] INFO  tests.userTest2 - After update fname:Arlette
+10:28:25.974 [main] INFO  tests.userTest2 - After update lname:Upton
+10:28:25.974 [main] INFO  tests.userTest2 - After update fname:shannon.pollich@example.com
+10:28:27.563 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+10:28:27.575 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 1: parameterValue cannot be null
+10:28:32.578 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 2: parameterValue cannot be null
+10:28:37.579 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 3: parameterValue cannot be null
+10:28:42.591 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 4: parameterValue cannot be null
+10:28:47.596 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 5: parameterValue cannot be null
+10:28:52.613 [main] INFO  tests.userTest2 - Deleting the user
+10:28:52.627 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 1: parameterValue cannot be null
+10:28:57.642 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 2: parameterValue cannot be null
+10:29:02.655 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 3: parameterValue cannot be null
+10:29:07.658 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 4: parameterValue cannot be null
+10:29:12.662 [main] INFO  tests.userTest2 - ⚠️ Exception on attempt 5: parameterValue cannot be null
+13:10:59.363 [main] INFO  tests.userTest2 - Creating new user...
+13:11:03.327 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+13:11:04.233 [main] INFO  tests.userTest2 - new user is created
+13:11:04.249 [main] INFO  tests.userTest2 - GET new user details
+13:11:05.974 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+13:11:12.542 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+13:11:19.200 [main] INFO  tests.userTest2 - ✅ Success on attempt 3
+13:11:19.221 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+13:11:19.228 [main] INFO  tests.userTest2 - Updating the user: tyler.jacobi
+13:11:19.228 [main] INFO  tests.userTest2 - before update fname:Floretta
+13:11:19.228 [main] INFO  tests.userTest2 - before update lname:Gottlieb
+13:11:19.229 [main] INFO  tests.userTest2 - before update fname:elvia.cartwright@example.com
+13:11:19.230 [main] INFO  tests.userTest2 - After update fname:Malena
+13:11:19.230 [main] INFO  tests.userTest2 - After update fname:Floretta
+13:11:19.230 [main] INFO  tests.userTest2 - After update lname:Gottlieb
+13:11:19.230 [main] INFO  tests.userTest2 - After update fname:elvia.cartwright@example.com
+13:11:20.827 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+13:11:22.448 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+13:11:29.914 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+13:11:29.930 [main] INFO  tests.userTest2 - Sucessfully updated the user: tyler.jacobi
+13:11:29.934 [main] INFO  tests.userTest2 - Deleting the user
+13:11:31.534 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+13:11:31.549 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+11:59:28.336 [main] INFO  tests.userTest2 - Creating new user...
+11:59:32.860 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+11:59:33.866 [main] INFO  tests.userTest2 - new user is created
+11:59:33.881 [main] INFO  tests.userTest2 - GET new user details
+11:59:35.606 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+11:59:42.427 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+11:59:49.141 [main] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+11:59:56.763 [main] INFO  tests.userTest2 - ❌ Attempt 4 failed. Status: 404
+12:00:03.619 [main] INFO  tests.userTest2 - ✅ Success on attempt 5
+12:00:03.675 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+12:00:03.682 [main] INFO  tests.userTest2 - Updating the user: aurea.keebler
+12:00:03.682 [main] INFO  tests.userTest2 - before update fname:Frank
+12:00:03.683 [main] INFO  tests.userTest2 - before update lname:Runte
+12:00:03.683 [main] INFO  tests.userTest2 - before update fname:herschel.kozey@example.com
+12:00:03.684 [main] INFO  tests.userTest2 - After update fname:Kurt
+12:00:03.685 [main] INFO  tests.userTest2 - After update fname:Frank
+12:00:03.685 [main] INFO  tests.userTest2 - After update lname:Runte
+12:00:03.685 [main] INFO  tests.userTest2 - After update fname:herschel.kozey@example.com
+12:00:05.370 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:00:07.054 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+12:00:13.962 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+12:00:13.979 [main] INFO  tests.userTest2 - Sucessfully updated the user: aurea.keebler
+12:00:13.984 [main] INFO  tests.userTest2 - Deleting the user
+12:00:15.567 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+12:00:22.185 [main] INFO  tests.userTest2 - ❌ Attempt 2 failed. Status: 404
+12:00:28.865 [main] INFO  tests.userTest2 - ❌ Attempt 3 failed. Status: 404
+12:00:36.143 [main] INFO  tests.userTest2 - ✅ Success on attempt 4
+12:00:36.160 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+12:19:33.515 [main] INFO  tests.userTest2 - Creating new user...
+12:19:37.595 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:19:38.548 [main] INFO  tests.userTest2 - new user is created
+12:19:38.558 [main] INFO  tests.userTest2 - GET new user details
+12:19:40.360 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:19:40.385 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+12:19:40.390 [main] INFO  tests.userTest2 - Updating the user: tarsha.ortiz
+12:19:40.392 [main] INFO  tests.userTest2 - before update fname:Valentin
+12:19:40.392 [main] INFO  tests.userTest2 - before update lname:Schowalter
+12:19:40.392 [main] INFO  tests.userTest2 - before update fname:cesar.hegmann@example.com
+12:19:40.424 [main] INFO  tests.userTest2 - Deleting the user
+12:19:41.999 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:19:42.012 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+12:20:44.686 [main] INFO  tests.userTest2 - Creating new user...
+12:20:48.774 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:20:49.724 [main] INFO  tests.userTest2 - new user is created
+12:20:49.737 [main] INFO  tests.userTest2 - GET new user details
+12:20:51.460 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+12:20:58.134 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+12:20:58.155 [main] INFO  tests.userTest2 - New user details is sucessfully fetched
+12:20:58.161 [main] INFO  tests.userTest2 - Updating the user: elnora.williamson
+12:20:58.161 [main] INFO  tests.userTest2 - before update fname:Clementine
+12:20:58.162 [main] INFO  tests.userTest2 - before update lname:Block
+12:20:58.162 [main] INFO  tests.userTest2 - before update fname:marcellus.ratke@example.com
+12:20:58.211 [main] INFO  tests.userTest2 - After update username:Debi
+12:20:58.212 [main] INFO  tests.userTest2 - After update fname:Debi
+12:20:58.212 [main] INFO  tests.userTest2 - After update lname:Jacobs
+12:20:58.212 [main] INFO  tests.userTest2 - After update email:clair.veum@hotmail.com
+12:20:59.846 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:21:01.767 [main] INFO  tests.userTest2 - ❌ Attempt 1 failed. Status: 404
+12:21:08.434 [main] INFO  tests.userTest2 - ✅ Success on attempt 2
+12:21:08.451 [main] INFO  tests.userTest2 - Sucessfully updated the user: elnora.williamson
+12:21:08.456 [main] INFO  tests.userTest2 - Deleting the user
+12:21:10.102 [main] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:21:10.115 [main] INFO  tests.userTest2 - new user is sucessfully deleted
+16:27:54.548 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:27:56.349 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:27:57.146 [main] INFO  stepDefinition.UserStepDefs - ⚠️ Exception on attempt 1: parameterValue cannot be null
+16:28:02.154 [main] INFO  stepDefinition.UserStepDefs - ⚠️ Exception on attempt 2: parameterValue cannot be null
+16:28:07.162 [main] INFO  stepDefinition.UserStepDefs - ⚠️ Exception on attempt 3: parameterValue cannot be null
+16:28:12.178 [main] INFO  stepDefinition.UserStepDefs - ⚠️ Exception on attempt 4: parameterValue cannot be null
+16:28:17.184 [main] INFO  stepDefinition.UserStepDefs - ⚠️ Exception on attempt 5: parameterValue cannot be null
+16:54:17.378 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:54:17.510 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+16:56:06.761 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:56:06.881 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+16:59:45.135 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:59:45.265 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+16:59:47.385 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:59:49.716 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+16:59:51.498 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+16:59:58.131 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 2 failed. Status: 404
+17:00:04.724 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 3
+17:01:15.551 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+17:01:15.670 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+17:01:17.327 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+17:01:23.974 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 2 failed. Status: 404
+17:01:30.642 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 3
+17:01:32.689 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+17:01:34.698 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:45:53.122 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:45:53.254 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+21:45:55.131 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:45:57.566 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:45:59.186 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:58:54.731 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:58:54.850 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+21:58:56.763 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:58:58.813 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+21:59:00.731 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:07:48.399 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:07:49.353 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+22:07:50.990 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+22:07:57.748 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 2 failed. Status: 404
+22:08:04.384 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 3 failed. Status: 404
+22:08:10.947 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 4 failed. Status: 404
+22:08:17.608 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 5 failed. Status: 404
+22:08:26.144 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:08:27.963 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:11:29.313 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:11:30.245 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+22:11:31.875 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:11:34.152 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+22:11:35.992 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+22:11:42.577 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 2 failed. Status: 404
+22:11:49.178 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 3 failed. Status: 404
+22:11:55.771 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 4 failed. Status: 404
+22:12:04.681 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 5 failed. Status: 404
+12:30:22.743 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Creating new user...
+12:30:23.560 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+12:30:23.561 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+12:30:23.561 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1010,
+  "username": "abc123",
+  "firstName": "abc",
+  "lastName": "qapitol",
+  "email": "abc@qapitol.com",
+  "password": "abc@123",
+  "phone": "9.988776655E9",
+  "userStatus": 0
+}
+12:30:26.955 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:30:26.974 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+12:30:27.477 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+12:30:27.483 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+12:30:27.483 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+12:30:27.484 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1020,
+  "username": "xyz123",
+  "firstName": "xyz",
+  "lastName": "qapitol",
+  "email": "xyz@qapitol.com",
+  "password": "xyz@123",
+  "phone": "8.899776655E9",
+  "userStatus": 0
+}
+12:30:28.348 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - new user is created
+12:30:28.352 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - GET new user details
+12:30:28.693 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+12:30:28.702 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+12:30:28.706 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - Create a new user is intialised...
+12:30:28.706 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - User payload is created
+12:30:28.706 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - {
+  "id": 1030,
+  "username": "qwe123",
+  "firstName": "qwe",
+  "lastName": "qapitol",
+  "email": "qwe@qapitol.com",
+  "password": "qwe@123",
+  "phone": "7.788996655E9",
+  "userStatus": 0
+}
+12:30:29.551 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:30:29.579 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - New user details is sucessfully fetched
+12:30:29.583 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Updating the user: silvana.olson
+12:30:29.583 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update fname:Shelby
+12:30:29.583 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update lname:Morissette
+12:30:29.584 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - before update fname:leone.dubuque@example.com
+12:30:29.640 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update username:Loni
+12:30:29.641 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update fname:Loni
+12:30:29.641 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update lname:Brown
+12:30:29.641 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - After update email:dennis.leannon@yahoo.com
+12:30:29.860 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+12:30:29.869 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - create user is completed
+12:30:29.915 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+12:30:30.783 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:30:31.053 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 1
+12:30:31.063 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+12:30:31.065 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+12:30:31.937 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:30:31.945 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Sucessfully updated the user: silvana.olson
+12:30:31.949 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - Deleting the user
+12:30:32.226 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+12:30:33.125 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - ✅ Success on attempt 1
+12:30:33.136 [TestNG-test-Test1_parallel-2] INFO  tests.userTest2 - new user is sucessfully deleted
+12:30:38.401 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 2
+12:30:38.409 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+12:30:38.412 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is intialised...
+12:30:39.539 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 1 failed. Status: 404
+12:30:45.687 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ❌ Attempt 2 failed. Status: 404
+12:30:51.831 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - ✅ Success on attempt 3
+12:30:51.838 [TestNG-test-Test1_parallel-1] INFO  tests.DdUserTest - delete user is completed
+13:26:26.751 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+13:26:28.170 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+13:26:29.358 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+13:26:33.115 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+13:26:34.723 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+13:26:40.848 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 2
+10:28:16.833 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+10:28:18.837 [main] INFO  stepDefinition.UserStepDefs - the username of user is john_doe_88
+10:28:20.499 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+10:28:27.136 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 2
+10:28:30.673 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 1
+10:28:32.688 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 1 failed. Status: 404
+10:28:39.258 [main] INFO  stepDefinition.UserStepDefs - ❌ Attempt 2 failed. Status: 404
+10:28:45.874 [main] INFO  stepDefinition.UserStepDefs - ✅ Success on attempt 3

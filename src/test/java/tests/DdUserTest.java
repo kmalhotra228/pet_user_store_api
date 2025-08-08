@@ -38,13 +38,7 @@ public class DdUserTest {
 		logger.info("Before setUp is done logger & gson object is intialised");
 	}
 	
-	@BeforeMethod
-	public void beforeTestMethod(Method method) {
-		String testName = method.getName();
-		String testDescription = method.getAnnotation(Test.class).description();
-		ExtentManager.createTest(testName,testDescription);
-	}
-	
+
 	
 	
 	@Test(priority = 1,dataProvider = "datas",dataProviderClass = DataProviders.class, description = "create a user with valid payload")

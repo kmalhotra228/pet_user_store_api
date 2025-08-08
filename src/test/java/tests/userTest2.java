@@ -30,9 +30,10 @@ public class userTest2 {
         this.userPayload = UserPayload.setUserPayload();
         logger = LogManager.getLogger(this.getClass());
         gson = new GsonBuilder().setPrettyPrinting().create();
+        faker = new Faker();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1 ,description = "POST a New User with Faker Payload")
     public void testPostUser() {
     	logger.info("Creating new user...");
         ExtentManager.logInfo("Creating new user...");
@@ -49,7 +50,7 @@ public class userTest2 {
         logger.info("new user is created");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, description = "GET a User details that is created with Faker")
     public void testGetUserByName(){
     
     	logger.info("GET new user details");
@@ -66,7 +67,7 @@ public class userTest2 {
         logger.info("New user details is sucessfully fetched");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3,description = "Update User details i.e FirstName, LastName & Email by PUT request")
     public void testUpdateUserByName()  {
     	logger.info("Updating the user: "+ this.userPayload.getUsername());
         ExtentManager.logInfo("Updating user: " + this.userPayload.getUsername());
@@ -74,21 +75,24 @@ public class userTest2 {
         logger.info("before update lname:"+ this.userPayload.getLastName());
         logger.info("before update fname:"+ this.userPayload.getEmail());
 
-        User updatedPayload = UserPayload.setUpdateUserPayload(); // use a new one
+        //User updatedPayload = UserPayload.setUpdateUserPayload(); // use a new one
         String username = this.userPayload.getUsername(); // save old one for future tests
-        this.userPayload = updatedPayload; // update payload
+        //this.userPayload = updatedPayload; // update payload
+        this.userPayload.setFirstName(faker.name().firstName());
+        this.userPayload.setLastName(faker.name().lastName());
+        this.userPayload.setEmail(faker.internet().emailAddress());
         
-        logger.info("After update fname:"+ updatedPayload.getFirstName());
+        logger.info("After update username:"+ this.userPayload.getFirstName());
         logger.info("After update fname:"+ this.userPayload.getFirstName());
         logger.info("After update lname:"+ this.userPayload.getLastName());
-        logger.info("After update fname:"+ this.userPayload.getEmail());
+        logger.info("After update email:"+ this.userPayload.getEmail());
         
-        ExtentManager.logApiRequest(gson.toJson(updatedPayload));
+        ExtentManager.logApiRequest(gson.toJson(this.userPayload));
         
         
 
         Response response = UserEndpoints2.updateUser(username, this.userPayload,logger);
-        ExtentManager.logApiTest("/user/" + username, "PUT", gson.toJson(updatedPayload), response.asString(), response.getStatusCode());
+        ExtentManager.logApiTest("/user/" + username, "PUT", gson.toJson(this.userPayload), response.asString(), response.getStatusCode());
         ExtentManager.logApiResponse(response.asString());
         response.then().body(matchesJsonSchemaInClasspath("schemas/user_put_response_schema.json"));
         Assert.assertEquals(response.getStatusCode(), 200);
@@ -102,7 +106,7 @@ public class userTest2 {
         logger.info("Sucessfully updated the user: "+ this.userPayload.getUsername());
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4,description = "Delete User that is created with Faker Payload")
     public void testDeleteUserByName() {
     	logger.info("Deleting the user");
         ExtentManager.logInfo("Deleting user: " + this.userPayload.getUsername());

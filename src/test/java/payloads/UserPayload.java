@@ -5,11 +5,10 @@ import com.github.javafaker.Faker;
 public class UserPayload {
 	
 	static Faker faker = new Faker();
-	static User userPayload = new User();
 	
 	public static User setUserPayload() {
 		
-		
+		User userPayload = new User();
 		
 		userPayload.setId(faker.idNumber().hashCode());
 		userPayload.setUsername(faker.name().username());
@@ -24,7 +23,7 @@ public class UserPayload {
 	
 	public static User setUserPayload(String userID, String userName,String fName,String lName,String useremail, String pwd,String phoneNumber) {
 		
-		
+		User userPayload = new User();
 		
 		userPayload.setId(Integer.parseInt(userID.trim()));
 		userPayload.setUsername(userName);
@@ -39,6 +38,7 @@ public class UserPayload {
 	
 	
 	public static User setUpdateUserPayload() {
+		User userPayload = new User();
 		
 		userPayload.setFirstName(faker.name().firstName());
 		userPayload.setLastName(faker.name().lastName());
@@ -48,6 +48,7 @@ public class UserPayload {
 	}
 	
 	public static User setUpdateUserPayload(String fname, String lname) {
+		User userPayload = new User();
 		
 		userPayload.setFirstName(fname);
 		userPayload.setLastName(lname);

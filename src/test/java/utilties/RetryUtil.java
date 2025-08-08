@@ -16,17 +16,13 @@ public class RetryUtil {
             try {
                 response = requestSupplier.get();
                 if (response != null && response.getStatusCode() == 200) {
-                    //System.out.println("✅ Success on attempt " + attempt);
                 	logger.info("✅ Success on attempt " + attempt);
                     return response;
                 } else {
-                    //System.out.println("❌ Attempt " + attempt + " failed. Status: " +
-                            //(response != null ? response.getStatusCode() : "null response"));
                 	logger.info("❌ Attempt " + attempt + " failed. Status: " +
                             (response != null ? response.getStatusCode() : "null response"));
                 }
             } catch (Exception e) {
-                //System.out.println("⚠️ Exception on attempt " + attempt + ": " + e.getMessage());
             	logger.info("⚠️ Exception on attempt " + attempt + ": " + e.getMessage());
             			}
 

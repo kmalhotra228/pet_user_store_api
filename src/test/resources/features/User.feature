@@ -22,7 +22,7 @@ Feature: User API testing with scenario outline
   Scenario Outline: Update the created user
     Given I have updated user details with username "<username>" and firstName "<newFirstName>" and lastName "<newLastName>"
     When I update the user
-    Then the updated response status code should be 200
+    Then the response status code should be 200
 
     Examples:
       | username    | newFirstName | newLastName |
